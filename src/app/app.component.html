@@ -1,2 +1,9 @@
 <h1>hello there</h1>
-<button (click)="handleClickEvent()">click me</button>
+<div class="text-align-center">
+  <h1>{{count}}</h1>
+    <div>
+        <button (click)="handleCount('plus')">increment</button>
+        <button (click)="handleCount('reset')">reset</button>
+        <button (click)="handleCount('minus')">decrement</button>
+    </div>
+</div>
